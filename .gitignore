@@ -50,3 +50,6 @@ dmypy.json
 
 # IDE files
 .idea/
+
+# Stuff the script generates
+package.use*
