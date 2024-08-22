@@ -4,6 +4,15 @@ This script converts a Gentoo Linux package.use file into a directory format whe
 This can help manage complex USE flag configurations by organizing them into separate, easily editable files.
 The script also verifies that the conversion process preserves the original USE flag configurations, allowing you to review any changes before committing them.
 
+## Table of Contents
+- [Features](#features)
+- [Requirements](#requirements)
+- [Dependencies](#dependencies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Error Handling](#error-handling)
+- [License](#license)
+
 ## Features
 
 - Converts a package.use file to a directory format: Each package will have its own file in the package.use/ directory.
@@ -61,3 +70,6 @@ The script includes robust error handling to manage common issues such as:
 - Permission errors
 
 If any errors occur, the script will display a helpful message and clean up any temporary files.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
